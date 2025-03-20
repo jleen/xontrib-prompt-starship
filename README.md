@@ -60,7 +60,9 @@ xontrib load prompt_starship
 print($PROMPT_FIELDS['starship_left']())
 ```
 
-[Prompt bar with starship](https://github.com/anki-code/xontrib-prompt-bar#using-starship-cross-shell-prompt-to-rendering-right-sections):
+### Prompt bar with starship
+
+[See also](https://github.com/anki-code/xontrib-prompt-bar#using-starship-cross-shell-prompt-to-rendering-right-sections):
 
 <img src="https://raw.githubusercontent.com/anki-code/xontrib-prompt-bar/master/static/xontrib-prompt-bar-starship.png" alt="Prompt bar with starship sections.">
 
