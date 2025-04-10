@@ -67,6 +67,13 @@ print($PROMPT_FIELDS['starship_left']())
 <img src="https://raw.githubusercontent.com/anki-code/xontrib-prompt-bar/master/static/xontrib-prompt-bar-starship.png" alt="Prompt bar with starship sections.">
 
 
+### Monochrome prompt
+
+See also [starship-prompt-mono](https://github.com/anki-code/starship-prompt-mono):
+
+![image](https://github.com/user-attachments/assets/9b8a73ab-9efa-4de4-8e17-822db88644a5)
+
+
 ## Known issues
 
 * [Prompt toolkit issue: the right prompt at the bottom.](https://github.com/prompt-toolkit/python-prompt-toolkit/issues/1241)
