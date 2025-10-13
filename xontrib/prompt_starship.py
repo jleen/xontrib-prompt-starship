@@ -15,7 +15,7 @@ def _starship_prompt(cfg: str) -> None:
             'starship', 'prompt',
             ('--status=' + (str(int( __xonsh__.history[-1].rtn)) if len(__xonsh__.history) > 0 else '0')),
             '--cmd-duration' , str(int((__xonsh__.history[-1].ts[1] - __xonsh__.history[-1].ts[0])*1000)) if len(__xonsh__.history) > 0 else '0',
-            '--jobs', str(len(__xonsh__.all_jobs)),
+            '--jobs', str(len([j for j in __xonsh__.all_jobs.values() if j['pids']])),
             '--terminal-width', str(os.get_terminal_size().columns),
         ])
 
